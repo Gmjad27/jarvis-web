@@ -1,0 +1,82 @@
+
+.login-page{
+
+    color: black;
+    margin-top: 70px;
+    
+    padding: 20px;
+    width: 700px;
+    height: 500px;
+    position: fixed;
+    
+     z-index: 1; 
+    border-radius: 30px;
+
+    font-size:20px;
+    background-image: linear-gradient(to top right ,rgb(255, 0, 43),rgb(0, 47, 150));
+    
+
+}
+.hh1{
+   
+    text-align: center;
+   
+    font-size: 60px;
+    margin-top: -1%;
+    color: white;
+    text-transform: uppercase;
+}
+
+form>input{
+    background-origin: padding-box;
+    border-radius: 20px;
+    border-top: none;
+    height: 35px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+form>label{
+    margin-left: 56px;
+    position: relative;
+    top: 25px;
+    color: white;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    text-transform:uppercase;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+form>button{
+    /* position: relative; */
+    margin-left: 23%;
+    margin-top: 60px;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.3s;
+}
+form>button:hover{
+    background-color: rgb(8, 206, 255);
+    color: white;
+    box-shadow: 0 0 5px aqua,0 0 15px aqua,0 0 25px aqua,0 0 100px aqua;
+
+}
+form>p{
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+
+}
+
+form>p>a{
+    text-decoration: none;
+    color: aqua;
+}
